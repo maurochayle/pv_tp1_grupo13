@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contacto</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Cultura Argentina</h1>
+        <nav>
+            <ul>                
+                <li><a href="index.html">Principal</a></li>
+                <li><a href="museos.html">Museos</a></li>                           
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div>
+            <h2>Formulario de contacto</h2>
+            <form>
+                <div>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        placeholder="Nombre y Apellido"
+                        aria-label="Nombre y Apellido"
+                        required
+                    >
+                </div>
+                <div>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Correo electronico"
+                        aria-label="Correo electronico"
+                        required
+                    >               
+                </div>
+                <div>
+                    <textarea name="area_texto" id="area_texto"></textarea>
+                </div>
+                <div>
+                    <input type="submit">
+                </div>               
+            </form>
+        </div>
+    </section>
 </body>
 </html>
