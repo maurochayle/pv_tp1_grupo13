@@ -28,12 +28,14 @@ h3 {
     justify-content: center;
     
   }
+  
   a{
     text-decoration: none;
     color: white;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 20px;
   }
 img{    
   width: 800px;
