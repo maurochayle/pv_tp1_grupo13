@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;/*con esto seteamos para que todo el body tenga flexbox*/
+    flex-direction: column; /*Esto es para que se vuelva a la posición original, uno bajo del otro*/
+    background-color: beige;
+          
+}
+h1{
+    display: flex;
+    justify-content: center;
+    background-color: #252C4F;
+    color: #1EADE5;    
+    padding: 15px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h2{
+    padding: 10px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal
+}
+h3{
+    
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal
+
+}
+.menu ul{/*si acá ponemos "a" lo que hace es forzar a cada enlace trabaje como contenedor separado, algo que no queremos*/
+    background-color:gray;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
+    list-style: none;
+    justify-content: center;
+
+}
+a{
+    text-decoration: none; /*Quita el subrayado a los enlaces*/
+    color: white;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contenedor{
+    display: flex;      
+    justify-content: space-between;
+    background-color: white;
+    height: 400px;   
+}
+section aside{
+   flex: 0 0 50%;
+   
+  
+}
+aside{
+    background-color: white
+}
+footer{
+    background-color: #252C4F;
+    color: #1EADE5;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    padding: 30px;    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%; /* Reduce un poco el ancho para dejar espacio */
+    margin: 0 auto; /* Esto centrará el formulario horizontalmente */
+    padding: 20px; /* Añade espacio interno */   
+    border-radius: 10px; /* Esquinas redondeadas */  
+}
+textarea{
+    resize: none;  
+    height: 150px;
+    width: 250px; 
+    margin-top: 10px;
+    border-radius: 5%;   
+}
+.contenedor2{   /* esto lo usamos con el div tanto en el contenido del form como para el contenido del aside*/
+    text-align: center;
+}
+
+.boton{
+    padding: 5px;
+    margin-top: 5px;
+}
+.contenedor3{
+    margin-top: 10px;
+    border-radius: 5%;
+    padding: 5px;
+    width: 250px;
+}
+.change-font{
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding: 20px;
+
+}
