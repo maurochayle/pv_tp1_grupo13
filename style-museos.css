@@ -73,14 +73,17 @@ ul li img {
 }
 
 
-ul li a {
-    text-decoration: none;
+ul li a {      /*Esto es de los enlaces a los museos*/  
     color: #1EADE5;
     font-weight: bold;
     font-size: 1.2rem;
     color: #1EADE5; 
 }
+a{
+    text-decoration: none;
+    color: white
 
+}
 
 footer {
     background-color: #005fa3;
@@ -95,8 +98,17 @@ aside {
     background-size: contain;
     background-position: right ;
     background-color: #005fa3; /* Azul muy claro */
-    padding: 20px;
-    border-radius: 8px;
+    padding: 20px;    
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+}
+ol{ /*Este es del nav*/
+    list-style: none;    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
 }
