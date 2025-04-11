@@ -4,87 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
-    <style>
-        h1{
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #1EADE5;
-        }
-        h2{
-            color: #1EADE5;
-        }
-        .menu{
-            background-color: whitesmoke;
-        }
-        .alineado{
-            text-align: center;
-        }
-        .nav {
-            
-            display: flex;           
-            padding: 0;
-            list-style: none;
-            gap: 20px;
-            margin: 0 auto;
-            background-color: #50535C;
-            font-family: cursive;
-            
-            
-
-        }
-        a{
-            text-decoration: none;
-            color: white;
-        }
-        body{
-            background-color: #252C4F;
-            
-        }
-
-    </style>
+    <link rel="stylesheet" href="style-contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" 
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Special+Gothic+Expanded+One&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Cultura Argentina</h1>
-        <nav class="nav">
-            <ul class="nav">                
+        <h1>Contáctate con nosotros</h1>
+        <nav class="menu">
+            <ul>                
                 <li><a href="index.html">Principal</a></li>
-                <li><a href="museos.html">Museos</a></li>                           
+                <li><a href="museos.html">Museos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>                             
             </ul>
         </nav>
     </header>
-    <section>
-        <div class="menu">
-            <h2 class="alineado">Formulario de contacto</h2>
-            <form class="alineado">
-                <div>
-                    <input
-                        type="text"
-                        id="nombre"
-                        name="nombre"
-                        placeholder="Nombre y Apellido"
-                        aria-label="Nombre y Apellido"
-                        required
-                    >
-                </div>
-                <div>
-                    <input
-                        type="email"
-                        id="email"
-                        name="email"
-                        placeholder="Correo electronico"
-                        aria-label="Correo electronico"
-                        required
-                    >               
-                </div>
-                
-
-                
-                <div>
-                    <input type="submit">
-                </div>               
-            </form>
-        </div>
+    <section>       
+            <div class="contenedor">           
+                    <form>
+                        <div class="contenedor2">
+                            <h2>Formulario de contacto</h2>                        
+                                <input
+                                    class="contenedor3" 
+                                    type="text"
+                                    id="nombre"
+                                    name="nombre"
+                                    placeholder="Nombre y Apellido"
+                                    aria-label="Nombre y Apellido"
+                                    required
+                                >                        
+                            <div >
+                                <input 
+                                    class="contenedor3"                                   
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Correo electronico"
+                                    aria-label="Correo electronico"
+                                    required
+                                >               
+                            </div>                            
+                            <textarea name="area_texto" id="area_texto"></textarea>                            
+                            <div class="boton">
+                                <input type="submit" class="boton">
+                            </div>
+                        </div>               
+                    </form>
+                <aside>
+                    <div class="contenedor2">
+                        <h3 style="padding: 35px;">Secretaría de Cultura</h3>
+                        <div class="change-font">
+                            <p>Estamos ubicados en el corazón de la provincia de Jujuy, promoviendo actividades, festivales y
+                                talleres para toda la comunidad
+                            </p>
+                            <p style="padding: 10px;">📍 Dirección: Calle Principal 123, San Salvador de Jujuy</p>
+                            <p style="padding: 10px;">📞 Teléfono: (388) 123-456</p>
+                            <p>📧 cultura@provincia.com</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>        
     </section>
+    <footer >
+        <p>© 2025 - Trabajo Práctico de HTML - Programación Visual</p>
+    </footer>
 </body>
 </html>
