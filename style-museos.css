@@ -1,7 +1,6 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    margin: 0;
     padding: 0;
     background-color: #252C4F; 
     color: #333;
@@ -9,14 +8,8 @@ body {
 
 
 header {
-    background-image: url('images/fondo.jpg'); 
-    width: 1340px;
-    height: 204px;
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    color: rgb(66, 38, 1);
-    padding: 60px 0;
+    color: #1EADE5;
+    padding: 20px 0;
     text-align: center;
     position: relative;
    
@@ -25,10 +18,10 @@ header {
 
 header h1 {
     margin: 0;
-    color: #fafafa;
+    color: #1EADE5;
     font-size: 2.5rem;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 20px;    
 }
 
 
@@ -79,36 +72,35 @@ ul li a {      /*Esto es de los enlaces a los museos*/
     font-size: 1.2rem;
     color: #1EADE5; 
 }
+
+
 a{
     text-decoration: none;
     color: white
 
 }
 
+
 footer {
-    background-color: #005fa3;
-    color: rgb(0, 0, 0);
+    background-color: #252C4F;
+    color: #0077cc;
     text-align: center;
     padding: 10px 0;
     margin-top: 20px;
+    font-family: "Special Gothic Expanded One", sans-serif;
+    font-weight: 400;
 }
 
 
-aside {
-    background-size: contain;
-    background-position: right ;
-    background-color: #005fa3; /* Azul muy claro */
-    padding: 20px;    
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
-}
 ol{ /*Este es del nav*/
+    background-color: #005FA3;
     list-style: none;    
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding: 20px;
+    margin: 0 auto;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    
 }

@@ -7,16 +7,25 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: beige;
+    background-color: #ffffff;
   }
-h2 {
-    margin: 0;
-    
-    color: black;
+  h1{ color: #1EADE5;
+    text-align: center;
+   padding: 20px;
+   background-color: #252C4F;
+
+}
+
+
+h2{
+    color: #0077cc;
+    margin-top: 1.5rem;
+    font-family: "Special Gothic Expanded One", sans-serif
   }
 h3 {
-    color: black;
+    color: #0077cc;
     margin-top: 1.5rem;
+    font-family: "Special Gothic Expanded One", sans-serif
   }
   .menu ul{
     background-color:#005FA3;
@@ -31,7 +40,7 @@ h3 {
   
   a{
     text-decoration: none;
-    color: white;
+    color: #ffffff;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -48,4 +57,21 @@ figure{
   flex-direction: column;
   align-items: center;  
   padding: 50px;
+}
+p{ 
+  color: #000000;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+footer {
+  background-color: #252C4F;
+  color: #0077cc;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
 }

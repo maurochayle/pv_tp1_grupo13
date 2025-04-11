@@ -14,7 +14,7 @@ h1{
     justify-content: center;
     background-color: #252C4F;
     color: #1EADE5;    
-    padding: 15px;
+    padding: 20px;
     font-family: "Special Gothic Expanded One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -33,7 +33,7 @@ h3{
 
 }
 .menu ul{/*si acá ponemos "a" lo que hace es forzar a cada enlace trabaje como contenedor separado, algo que no queremos*/
-    background-color:gray;
+    background-color:#005FA3;
     display: flex;
     gap: 20px;
     padding: 20px;
