@@ -60,7 +60,7 @@ ul li {
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    text-color: #000000;
+    color: #000000;
 }
 
 
@@ -93,7 +93,7 @@ footer {
 
 aside {
     background-size: contain;
-    background-position: right: ;
+    background-position: right ;
     background-color: #005fa3; /* Azul muy claro */
     padding: 20px;
     border-radius: 8px;
